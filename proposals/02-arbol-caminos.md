@@ -13,3 +13,13 @@ Encontrar cuantos caminos simples entre pares de nodos cumplen que la suma de pe
 
 
 # Ejemplo
+![image](https://github.com/user-attachments/assets/85bcc595-3d74-4010-9fde-99a6a54fe79b)
+
+En este ejemplo se ven `9` nodos. Por ejemplo, el camino entre el nodo `A` y el nodo `H` tiene un peso total de `5 + 10 + 7 = 22`.
+
+Si buscamos todos los caminos entre dos nodo, tales que el peso total es menor que 3, únicamente tenemos los siguientes:
+* `A - C`
+* `A - D`
+* `B - F`
+
+De modo que existirían 3 caminos que satisfacen esto.
