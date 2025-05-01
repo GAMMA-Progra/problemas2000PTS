@@ -25,4 +25,4 @@ Si buscamos todos los caminos entre dos nodo, tales que el peso total es menor q
 
 De modo que existirían 3 caminos que satisfacen esto.
 # Documentación 
-![url](https://www.geeksforgeeks.org/centroid-decomposition-of-tree/)
+https://www.geeksforgeeks.org/centroid-decomposition-of-tree/
