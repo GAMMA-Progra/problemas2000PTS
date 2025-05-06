@@ -24,5 +24,9 @@ Si buscamos todos los caminos entre dos nodo, tales que el peso total es menor q
 * `B - F`
 
 De modo que existirían 3 caminos que satisfacen esto.
+
 # Documentación 
 https://www.geeksforgeeks.org/centroid-decomposition-of-tree/
+https://brilliant.org/wiki/depth-first-search-dfs/
+https://www.datacamp.com/es/tutorial/depth-first-search-in-python
+https://www.datacamp.com/es/tutorial/understanding-recursive-functions-python
