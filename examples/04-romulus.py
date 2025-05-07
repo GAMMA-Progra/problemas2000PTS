@@ -8,7 +8,7 @@ type Mins = list[tuple[int, int]]
 
 
 def main():
-    values, totals = read_input("02-input.txt")
+    values, totals = read_input("inputs/04-input.txt")
     results: list[Mins] = []
 
     # Calcula los mínimos para cada total
