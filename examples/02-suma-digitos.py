@@ -9,8 +9,10 @@ def sum_digits(num: int) -> int:
 
     return acc
 
+
 def main():
     res = sum_digits(123456789)
     print(f"{res=}")
+
 
 main()

@@ -2,11 +2,13 @@ import math
 
 arr = [22, 1, 23, 12, 68]
 
+
 def isEven(num):
-    if (num % 2 == 0):
+    if num % 2 == 0:
         return True
     else:
         return False
+
 
 def countEvens(arr):
     evenCount = 0
@@ -16,6 +18,7 @@ def countEvens(arr):
             evenCount += 1
 
     return evenCount
+
 
 evenCount = countEvens(arr)
 oddCount = len(arr) - evenCount

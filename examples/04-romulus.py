@@ -47,7 +47,7 @@ def read_input(path: str) -> tuple[list[int], list[int]]:
     values: list[int]
     results: list[int]
 
-    with open(path, 'r') as f:
+    with open(path, "r") as f:
         text = f.read()
         lines = text.splitlines()
 
@@ -55,8 +55,8 @@ def read_input(path: str) -> tuple[list[int], list[int]]:
         results_text = lines[3]
 
         # Convierte cada palabra de la lista en enteros
-        values = list(map(int, values_text.split(' ')))
-        results = list(map(int, results_text.split(' ')))
+        values = list(map(int, values_text.split(" ")))
+        results = list(map(int, results_text.split(" ")))
 
     return (values, results)
 
