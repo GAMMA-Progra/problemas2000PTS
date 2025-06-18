@@ -1,7 +1,7 @@
 .PHONY: run clean clean_all format disasm raw trace debug
 
 CXX := g++
-CXXFLAGS := -std=c++11 -g -O2 \
+CXXFLAGS := -std=c++11 -g3 -O2 \
 			-Wall -Wextra -Wpedantic \
 			-Wdeprecated -Wunreachable-code -Wduplicated-branches \
 			-Wduplicated-cond -Wswitch-enum \

@@ -1,6 +1,10 @@
+#define IOSUTILS
+#include "template.hpp"
+
 #include <iostream>
 
 int main() {
-    std::cin.tie(nullptr);              // No interactivo
-    std::cout.sync_with_stdio(false);   // Solo <iostream>
+    fastio();
+    
+    std::cout << "Hello world\n";
 }
